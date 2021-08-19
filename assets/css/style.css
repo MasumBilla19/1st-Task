@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(#E3FDFA, #65DFD3);
+}
+
+
+
+.quizArea {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 3px 10px 2px gray;
+    margin: 120px auto;
+    padding: 10px 0;
+}
+.quizArea .bgSound {
+    display: inline-block;
+    cursor: pointer;
+    background: #fff;
+    padding: 5px 6px 3px;
+    border-radius: 50px;
+}
+.quizArea .bgSound i {
+    font-size: x-large;
+}
+.quizArea .question-area {
+    margin: 0 0 90px 0;
+}
+.quizArea .question-area p {
+    color: #00446F;
+    font-weight: 600;
+}
+.quizArea .question-area .questionImg {
+    width: 450px;
+    height: 250px;
+}
+.quizArea .question-area .questionVideo {
+    width: 450px;
+    height: 250px
+}
+.quizArea .question-area .questionAudio {
+    width: 450px;
+}
+
+
+.quizArea .question-option {
+    padding-bottom: 80px;
+}
+.quizArea .question-option li {
+    margin: 0 0 12px 0;
+}
+.quizArea .question-option button {
+    border-radius: 14px;
+    cursor: pointer;
+    color: #00446F;
+    font-weight: 600;
+    background: #FEFEFE;
+    width: 450px;
+    text-align: left;
+    box-shadow: 0 2px 4px gray;
+    transition: all .4s ease;
+}
+.quizArea .question-option button:hover {
+    background: #0BDADA;
+    color: #fff;
+}
+.quizArea .question-option button .category {
+    display: block;
+    background-color: #D0F9F3;
+    padding: 5px 11px;
+    border-radius: 50%;
+    font-weight: bold;
+    box-shadow: 1px 0 4px gray;
+    transition: all .2s ease;
+}
+.quizArea .question-option button:hover .category {
+    background-color: #00446F;
+}
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 500px) {
+    .quizArea .question-area .questionImg {
+        width: 260px;
+        height: 150px;
+    }
+    .quizArea .question-area .questionVideo {
+        width: 260px;
+        height: 150px
+    }
+    .quizArea .question-area .questionAudio {
+        width: 260px;
+    }
+    .quizArea .question-option button {
+        width: 260px;
+    }
+}

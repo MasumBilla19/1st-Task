@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- bootstrap cdn link -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- font awesome icon cdn link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- custom css link -->
+<link rel="stylesheet" href="./assets/css/style.css">
+<body>
+
+    <section class="container">
+        <div class="quizArea">
+            <div class="bgSound ml-3">
+                <i class="far fa-play-circle"></i> 
+            </div>
+
+            <div class="question-area">
+                <p class="text-center pb-3">Question 6/15</p>
+
+                <!-- img -->
+                <img src="./assets/images/maxresdefault.jpg" class="mb-3 d-block mx-auto questionImg img-fluid" alt="Quiz-Image">
+
+                <!-- video -->
+                <video class="mb-3 d-block mx-auto questionVideo"  controls>
+                    <source src = "https://youtu.be/C19h7HUMHTc" type = "video/mp4">
+                    This browser doesn't support video tag.
+                </video>
+
+                <!-- audio -->
+                <audio class="mb-3 d-block mx-auto questionAudio" controls>
+                    <source src="horse.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="question-option d-flex justify-content-center">
+                <ul class="list-group list-unstyled">
+                    <li class="">
+                        <button class="d-flex align-items-center border-0 py-4 px-2 px-lg-3">
+                            <span class="category mr-2 mr-lg-4">A</span>
+                            <span>times or more per week</span> 
+                        </button>
+                    </li>
+
+                    <li class="">
+                        <button class="d-flex align-items-center border-0 py-4 px-2 px-lg-3">
+                            <span class="category mr-2 mr-lg-4">B</span>
+                            <span>1 or 2 times per week</span>
+                        </button>
+                    </li>
+
+                    <li class="">
+                        <button  class="d-flex align-items-center border-0 py-4 px-2 px-lg-3">
+                            <span class="category mr-2 mr-lg-4">C</span>
+                            <span>Less then 4 times per week</span>
+                        </button>
+                    </li>
+
+                    <li class="">
+                        <button  class="d-flex align-items-center border-0 py-4 px-2 px-lg-3">
+                            <span class="category mr-2 mr-lg-4">D</span>
+                            <span>don't practise sport during the month</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
