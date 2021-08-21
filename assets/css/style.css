@@ -5,10 +5,10 @@ body{
 
 
 .quizArea {
-    background: url(../images/bg.jpg) no-repeat;
-    background-size: cover;
+    background: url(../images/bg\ \(2\).jpg) no-repeat;
+    background-size: 100%;
     background-position: center center;
-    box-shadow: 0 3px 10px 2px gray;
+    box-shadow: 0 3px 11px 1px grey;
     margin: 120px auto;
     padding: 10px 0;
 }
@@ -84,7 +84,7 @@ body{
 
 
 /* Media Query for Mobile Devices */
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     .quizArea .question-area .questionImg {
         width: 260px;
         height: 150px;
